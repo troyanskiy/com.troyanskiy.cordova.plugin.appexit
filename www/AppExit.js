@@ -1,9 +1,9 @@
 var exec = require('cordova/exec');
 
-exports.exit = function() {
+exports.exit = function () {
 
-  return new Promise(function(resolve, reject) {
-    exec(resolve, reject, "AppExit", "exit", null);
-  });
+	return new Promise(function (resolve, reject) {
+		exec(resolve, reject, "AppExit", "exitNow", null);
+	});
 
 };
