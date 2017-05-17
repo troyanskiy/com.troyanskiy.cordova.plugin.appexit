@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.troyanskiy.cordova.plugin.appexit" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>AppExit</name>
+  <js-module name="AppExit" src="www/AppExit.js">
+    <clobbers target="AppExit" />
+  </js-module>
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="AppExit">
+        <param name="ios-package" value="AppExit" />
+      </feature>
+    </config-file>
+    <source-file src="src/ios/AppExit.swift" />
+  </platform>
+</plugin>

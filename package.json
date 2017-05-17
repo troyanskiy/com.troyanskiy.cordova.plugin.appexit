@@ -1,0 +1,25 @@
+{
+  "name": "com.troyanskiy.cordova.plugin.appexit",
+  "version": "0.0.1",
+  "description": "Exit app",
+  "keywords": [
+    "Cordova",
+    "exit"
+  ],
+  "cordova": {
+    "id": "com.troyanskiy.cordova.plugin.appexit",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troyanskiy/com.troyanskiy.cordova.plugin.appexit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/troyanskiy/com.troyanskiy.cordova.plugin.appexit/issues"
+  },
+  "homepage": "https://github.com/troyanskiy/com.troyanskiy.cordova.plugin.appexit",
+  "author": "Raman Rasliuk <roma@redbox.by>",
+  "license": "ISC"
+}
