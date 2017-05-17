@@ -1,0 +1,1 @@
+# com.troyanskiy.cordova.plugin.appexit
